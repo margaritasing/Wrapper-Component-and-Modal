@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+.modal {
+    background-color: rgba(0,0,0, .85);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1{
+    text-align: center;
+}
+
+.modal__dialog {   
+    font-family: 'Shantell Sans', cursive;
+    background: #BFACE2;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+   
+}
+
+.modal__dialog__error{
+    font-family: 'Shantell Sans', cursive;
+    background: #645CBB;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+
+}
+
+.modal-open  {
+    display: grid;
+}
+
+.buton-modal {
+    margin-left: 70px;
+    margin-top: 5px;  
+    font-size: 30px;  
+    border-radius: 50%;
+    color: #16FF00;
+    border: none;
+}
+
+.buton-modal i {
+    padding: 10px;
+}
+
+.buton-modal-error{
+    margin-left: 73px;
+    margin-top: 5px;  
+    font-size: 30px;  
+    border-radius: 50%;
+    color: #F94A29;
+    border: none;
+}
+
+.buton-modal-error i {
+    padding: 10px;
+}
+
+
+
