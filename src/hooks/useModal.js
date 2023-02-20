@@ -4,7 +4,6 @@ const useModal = (initialValue = false) => {
 
   const [isOpenModal, setIsOpenModal] = useState(initialValue);
 
-  const [ success , setSuccess ] = useState(false)
 
   const openModal = () => {
     setIsOpenModal(true);
@@ -14,9 +13,7 @@ const useModal = (initialValue = false) => {
     setIsOpenModal(false);
   }
 
-  const isSuccess = () => {
-    setSuccess(true)
-}
+  const isSuccess = false
 
     return [isOpenModal, openModal ,closeModal, isSuccess ];
 }

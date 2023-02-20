@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Shantell+Sans:wght@300&display=swap');
 
 .modal {
-    background-color: rgba(0,0,0, .85);
+    background-color: rgba(0,0,0, .1);
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -10,64 +10,76 @@
     z-index: 9999;
     display: none;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center;   
 }
 
-h1{
+h1, h3 {
     text-align: center;
 }
 
-.modal__dialog {   
-    font-family: 'Shantell Sans', cursive;
-    background: #BFACE2;
-    color: #fff;
-    padding: 10px;
-    width: 200px;
-    height: 200px;
-    border-radius: 25px;
-   
+h3 {
+    margin-top: 15px;
 }
 
-.modal__dialog__error{
-    font-family: 'Shantell Sans', cursive;
-    background: #645CBB;
-    color: #fff;
+.modal__dialog {      
+    font-family: 'Quicksand', sans-serif;
+    background: #FFFBEB;
+    color: #000;
     padding: 10px;
-    width: 200px;
-    height: 200px;
-    border-radius: 25px;
-
+    width: 32em;
+    height: 350px;
+    border-radius: 25px;   
+    margin-top: 50px;
+    max-width: 100%;
 }
 
 .modal-open  {
-    display: grid;
+    display: grid;   
 }
 
-.buton-modal {
-    margin-left: 70px;
-    margin-top: 5px;  
-    font-size: 30px;  
+.button-modal {  
+    width: 100px;
+    height: 100px;  
+    margin-left: 200px;    
+    font-size: 50px;  
     border-radius: 50%;
     color: #16FF00;
-    border: none;
+    background-color: transparent;
+    border: 2px solid #16FF00 ;
+    padding: 15px;
+   
+   
 }
 
-.buton-modal i {
+.button-modal i {
     padding: 10px;
 }
 
-.buton-modal-error{
-    margin-left: 73px;
-    margin-top: 5px;  
-    font-size: 30px;  
+.button-modal-error{
+    width: 100px;
+    height: 100px;    
+    margin-left: 200px;    
+    font-size: 50px;  
     border-radius: 50%;
-    color: #F94A29;
-    border: none;
+    color: #F94A29;  
+    background-color: transparent;
+    border: 2px solid #F94A29 ;
+    padding: 15px;
+    
 }
 
-.buton-modal-error i {
+.button-modal-error i {
     padding: 10px;
+}
+
+.button-ok{
+  width: 50px;
+  height: 50px;
+  margin-left: 230px;   
+  background-color: #A459D1;
+  color: #fff;
+  border: 2px solid #EBC7E6;
+  border-radius: 5px;
 }
 
 
